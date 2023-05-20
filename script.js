@@ -31,7 +31,9 @@ function addToCart(productId) {}
 function removeFromCart(productId) {}
 
 // Clear cart
-function clearCart() {}
+function clearCart() {
+	document.getElementById("clear-cart-btn");
+}
 
 // Initial render
 renderProducts();
